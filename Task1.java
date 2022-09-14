@@ -81,14 +81,15 @@ public class Task1 {
                 if (score7 < 0 || score7 > 100)
                     System.out.println("Error input out of bound. Score can only be between 0 and 100.");
             }
-            while (score6 < 0 || score6 > 100);
+            while (score7 < 0 || score7 > 100);
             {
 
 
-                System.out.println("Thank you for your input, your entered scores are: " + score1, score2, score3, score4, score5, score6, score7);
-
-
+                System.out.println("Thank you for your input, your entered scores are: ");
+                System.out.println(score1+ ", " +score2 + ", " + score3+ ", " +score4+ ", " +score5+ ", " +score6+ ", " +score7);
 
 
             }
-        }}}
+        }
+    }
+}
